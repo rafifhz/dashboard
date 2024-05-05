@@ -1,0 +1,292 @@
+ 
+
+
+ 
+ #wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden;
+ }
+ 
+
+ .brand{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-left: 15px;
+
+
+ }
+
+
+ .toggle{
+   font-size: 30px;
+   cursor: pointer;
+   text-align: center;
+
+
+ }
+ .logo{
+   font-size: 20px;
+ }
+ 
+ #sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+   overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+ }
+
+.activeside{
+ 
+   width: 100px!important;
+
+     
+  }
+  .Namelist{
+   position: absolute;
+   display: none!important;
+  }
+ .icon{
+   padding: 0px 10px;
+ }
+
+ .icon2{
+   text-align: center!important;
+   padding-left: 15px;
+   color: #FF7F00!important;
+ }
+
+ .togglenew{
+   cursor: pointer;
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+
+  .sidebar-nav-new {
+   position: absolute;
+   top: 0;
+   left: 50%;
+   width:180px;
+  
+}
+.my{
+   display: none!important;
+}
+ 
+
+ 
+ #page-content-wrapper {
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    overflow-x: hidden;
+ }
+ 
+
+ #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0px;
+ }
+ 
+ .fixed-brand {
+    width: auto;
+ }
+ /* Sidebar Styles */
+ 
+ .sidebar-nav {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+
+    padding: 0;
+    list-style: none;
+    margin-top: 2px;
+ }
+ 
+ .sidebar-nav li {
+   font-size: 18px;
+    text-indent: 15px;
+    line-height: 40px;
+    padding: 15px 0px;
+ }
+ 
+ .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+
+ }
+ 
+ .sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-left: #FF7F00 2px solid;
+ }
+
+ .active {
+   text-decoration: none;
+   color: #fff;
+   background: rgba(255, 255, 255, 0.2);
+   border-left: #FF7F00 2px solid;
+}
+ 
+ .sidebar-nav li a:active,
+ .sidebar-nav li a:focus {
+    text-decoration: none;
+ }
+ 
+
+ 
+
+
+ #page-content-wrapper {
+   position: absolute;
+   width: calc(100% - 300px);
+      left:250px;
+ }
+ .page-content-wrapper2 {
+   position: absolute;
+   width: calc(100% - 100px);
+left: 5%!important;
+ }
+
+
+ 
+ @media (min-width: 992px) {
+  
+ 
+   #page-content-wrapper {
+      position: absolute;
+      width: calc(100% - 300px);
+         left:250px;
+    }
+    .page-content-wrapper2 {
+      position: absolute;
+      width: calc(100% - 100px);
+   left: 5%!important;
+    }
+    
+
+  }
+
+  @media  (max-width:768px) {
+   #page-content-wrapper {
+      position: absolute;
+      width: calc(100% - 200px)!important;
+         padding-left: 2%!important;
+         padding-right: 10%!important;
+
+
+    }
+
+  
+     .page-content-wrapper2 {
+      position: absolute;
+      width: 100%!important;
+         left:10%!important;
+         right:10%!important;}
+
+  }
+
+  @media  (max-width:300px) {
+   #page-content-wrapper {
+      position: absolute;
+      width: calc(100% - 20px)!important;
+         padding-left: 2%!important;
+         padding-right: 10%!important;
+
+
+    }
+
+  
+     .page-content-wrapper2 {
+      position: absolute;
+      width: 100%!important;
+         left:10%!important;
+         right:10%!important;}
+
+  }
+
+
+
+
+
+
+
+
+
+  
+.cards{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+  
+.card-about{
+
+   width: 220px;
+   height: 80px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   background-color: #fff;
+  
+     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+     padding-top:68px !important;
+     padding-bottom: 130px !important;
+ }
+ 
+ 
+
+
+ 
+ .card-about i{
+   width: 250px;
+   height: auto;
+ font-size: 46px;
+ color:#FF7F00 ;}
+ 
+ .card-about:hover{
+ background-color:#FF7F00 ;
+ 
+ 
+ }
+ .card-about:hover i{
+ color: #fff;  
+   
+   }
+   .card-about:hover h2{
+     color: #fff;  
+       
+       }
+ 
+ 
+ 
+ .card-about h2{
+   padding-top: 30px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+ 
+ 
+ }
